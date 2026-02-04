@@ -4,6 +4,6 @@ jobs:
   build-and-test:
     runs-on: ubuntu-latest
     steps:
-      - uses: action/checkout@v6.0.2
+      - uses: actions/checkout@v6.0.2
       - name: Run tests
         run: cat Mohamed
